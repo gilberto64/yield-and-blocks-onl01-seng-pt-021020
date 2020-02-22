@@ -2,8 +2,8 @@ require "pry"
 def hello_t(array)
   if block_given?
     i = 0
-    binding.pry 
     while i < array.length 
+      binding.pry 
       yield array[i]
       i = i + 1 
     end
