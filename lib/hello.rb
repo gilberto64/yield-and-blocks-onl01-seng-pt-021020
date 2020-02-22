@@ -15,7 +15,7 @@ def hello_t(array1)
   end
 
 
-hello_t(["Tom","Jim","Tim","Tracy", "Talula","Pepe") do |name|
+hello_t(["Tom","Jim","Tim","Tracy", "Talula","Pepe"]) do |name|
   if name.start_with? ("T") 
     puts "Hi, #{name}"
   end
