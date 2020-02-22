@@ -15,7 +15,7 @@ def hello_t(array)
   end
 
 
-hello_t(array["#x"]) do |name|
+hello_t(array) do |name|
   if name.start_with? ("T")
     puts "Hi, #{name}"
   end
