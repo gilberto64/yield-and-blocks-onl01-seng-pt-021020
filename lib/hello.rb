@@ -5,10 +5,12 @@ def hello_t(array)
     yield array[i]
     i = i + 1 
   end
+  array = ["Time", "Tom", "Jim"]
+end
   
-e
 
-hello_t(nd ["Tim","Tom","Jim"]) do |name|
+
+hello_t(end ["Tim","Tom","Jim"]) do |name|
   if name.start_with? ("T")
     return "Hi, #{name}"
   end
