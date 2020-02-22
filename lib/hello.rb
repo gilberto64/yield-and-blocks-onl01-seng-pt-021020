@@ -8,7 +8,7 @@ def hello_t(array)
     end
     array = ["Tim", "Tom", "Jim"]
   else
-    
+    return "Hey! No block was given!"
   end
   
 
