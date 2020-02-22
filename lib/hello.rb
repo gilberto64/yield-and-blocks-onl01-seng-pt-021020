@@ -3,7 +3,7 @@ def hello_t(array1)
   if block_given?
     i = 0
     while i < array1.length 
-      yield 
+      yield (array1)
       i = i + 1 
     end
   
